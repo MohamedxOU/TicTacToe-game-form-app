@@ -14,23 +14,55 @@ namespace TicTacToe_MED
     {
         public StartInterface()
         {
+            
             InitializeComponent();
         }
 
+        //Start interface Load
+        private void StartInterface_Load(object sender, EventArgs e)
+        {
+            playersNamesPanel.Visible = false;
+        }
+
+
         private void twoPlayersButton_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("You have chosen to play against another player. Please enter your names.");
+            playersNamesPanel.Visible=true;
+            
 
-            TwoPlayersGame twoPlayersGame = new TwoPlayersGame("Mohamed","Sami");
-            twoPlayersGame.Show();
-            this.Hide();
+            // Check if both player names are provided
+            
+
+            
         }
+
 
         private void button1_Click(object sender, EventArgs e)
         {
             RobotVersusGame robotVersusGame = new RobotVersusGame();
             robotVersusGame.Show();
             this.Hide();
+        }
+
+        private void StartGame2PlayerBtn_Click(object sender, EventArgs e)
+        {
+            string player1Name = player1NameTextBox.Text;
+            string player2Name = player2NameTextBox.Text;
+
+            if (string.IsNullOrWhiteSpace(player1Name) || string.IsNullOrWhiteSpace(player2Name))
+            {
+                MessageBox.Show("Please enter names for both players.");
+                return;
+            }
+
+            TwoPlayersGame twoPlayersGame = new TwoPlayersGame(player1Name, player2Name);
+            twoPlayersGame.Show();
+            this.Hide();
+        }
+
+        private void goToStrtChoiceBtn_Click(object sender, EventArgs e)
+        {
+            playersNamesPanel.Visible = false;
         }
     }
 }

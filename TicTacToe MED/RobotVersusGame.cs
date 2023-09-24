@@ -16,5 +16,10 @@ namespace TicTacToe_MED
         {
             InitializeComponent();
         }
+
+        private void RobotVersusGame_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

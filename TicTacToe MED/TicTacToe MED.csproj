@@ -79,6 +79,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="RobotVersusGame.resx">
+      <DependentUpon>RobotVersusGame.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="StartInterface.en.resx">
       <DependentUpon>StartInterface.cs</DependentUpon>
     </EmbeddedResource>
