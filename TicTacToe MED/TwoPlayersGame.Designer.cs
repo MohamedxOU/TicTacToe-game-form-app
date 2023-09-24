@@ -72,6 +72,7 @@
             // button3n3
             // 
             this.button3n3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3n3.ForeColor = System.Drawing.Color.DimGray;
             this.button3n3.Location = new System.Drawing.Point(269, 239);
             this.button3n3.Name = "button3n3";
             this.button3n3.Size = new System.Drawing.Size(127, 112);
@@ -82,6 +83,7 @@
             // button3n2
             // 
             this.button3n2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3n2.ForeColor = System.Drawing.Color.DimGray;
             this.button3n2.Location = new System.Drawing.Point(136, 239);
             this.button3n2.Name = "button3n2";
             this.button3n2.Size = new System.Drawing.Size(127, 112);
@@ -92,6 +94,7 @@
             // button3n1
             // 
             this.button3n1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3n1.ForeColor = System.Drawing.Color.DimGray;
             this.button3n1.Location = new System.Drawing.Point(3, 239);
             this.button3n1.Name = "button3n1";
             this.button3n1.Size = new System.Drawing.Size(127, 112);
@@ -102,6 +105,7 @@
             // button2n3
             // 
             this.button2n3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2n3.ForeColor = System.Drawing.Color.DimGray;
             this.button2n3.Location = new System.Drawing.Point(269, 121);
             this.button2n3.Name = "button2n3";
             this.button2n3.Size = new System.Drawing.Size(127, 112);
@@ -112,6 +116,7 @@
             // button2n2
             // 
             this.button2n2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2n2.ForeColor = System.Drawing.Color.DimGray;
             this.button2n2.Location = new System.Drawing.Point(136, 121);
             this.button2n2.Name = "button2n2";
             this.button2n2.Size = new System.Drawing.Size(127, 112);
@@ -122,6 +127,7 @@
             // button2n1
             // 
             this.button2n1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2n1.ForeColor = System.Drawing.Color.DimGray;
             this.button2n1.Location = new System.Drawing.Point(3, 121);
             this.button2n1.Name = "button2n1";
             this.button2n1.Size = new System.Drawing.Size(127, 112);
@@ -132,6 +138,7 @@
             // button1n3
             // 
             this.button1n3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1n3.ForeColor = System.Drawing.Color.DimGray;
             this.button1n3.Location = new System.Drawing.Point(269, 3);
             this.button1n3.Name = "button1n3";
             this.button1n3.Size = new System.Drawing.Size(127, 112);
@@ -142,6 +149,7 @@
             // button1n2
             // 
             this.button1n2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1n2.ForeColor = System.Drawing.Color.DimGray;
             this.button1n2.Location = new System.Drawing.Point(136, 3);
             this.button1n2.Name = "button1n2";
             this.button1n2.Size = new System.Drawing.Size(127, 112);
@@ -152,6 +160,7 @@
             // button1n1
             // 
             this.button1n1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1n1.ForeColor = System.Drawing.Color.DimGray;
             this.button1n1.Location = new System.Drawing.Point(3, 3);
             this.button1n1.Name = "button1n1";
             this.button1n1.Size = new System.Drawing.Size(127, 112);

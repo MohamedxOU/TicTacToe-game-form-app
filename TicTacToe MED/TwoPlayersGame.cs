@@ -29,7 +29,7 @@ namespace TicTacToe_MED
             // Initialize player names
             playerXTextBox = new TextBox();
             playerXTextBox.Text = playerXName;
-            playerXTextBox.Location = new Point(50, 10);
+            playerXTextBox.Location = new Point(100, 10);
             this.Controls.Add(playerXTextBox);
 
             playerOTextBox = new TextBox();
@@ -125,6 +125,7 @@ namespace TicTacToe_MED
             {
                 button.Text = currentPlayer.ToString();
                 button.ForeColor = (currentPlayer == 'X') ? Color.Red : Color.Blue;
+
                 button.Font = new Font(button.Font.FontFamily, 24);
                 CheckForWinner();
 
@@ -136,6 +137,7 @@ namespace TicTacToe_MED
 
                 currentPlayer = (currentPlayer == 'X') ? 'O' : 'X'; // Switch players
             }
+            
         }
 
 
@@ -153,6 +155,7 @@ namespace TicTacToe_MED
         {
             HandleButtonClick(button1n3);
             CheckForWinner();
+            
         }
         private void button2n1_Click(object sender, EventArgs e)
         {
@@ -202,11 +205,18 @@ namespace TicTacToe_MED
             foreach (Button button in buttons)
             {
                 button.Text = "";
+               
             }
 
             gameOver = false;
             currentPlayer = 'X';
-
+            for (int i = 0; i<3; i++)
+            {
+                for (int j= 0; j<3; j++)
+                {
+                    buttons[i,j].ForeColor = Color.DimGray;
+                }
+            }
         }
     }
 }
